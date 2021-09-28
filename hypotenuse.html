@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="/style/isTriangle.css">
+</head>
+
+<body>
+    <nav>
+        <Strong>Fun With Triangles
+        </Strong>
+    </nav>
+    <div class="links">
+        <a href="/index.html" class="link ">Is triangle</a>
+        <a href="/quiz.html" class="link">Quiz</a>
+        <a href="/area.html" class="link link-active">Find Area</a>
+        <a href="/hypotenuse.html" class="link">Find Hypotenuse</a>
+    </div>
+    <hr>
+
+    <p>Enter the lengths of 3 sides of triangle to know the area</p>
+    <div class="row">
+        <label for="side1">Length of base : </label>
+        <input type="number" name="" id="side1">
+    </div>
+
+    <div class="row">
+        <label for="side2">Length of height : </label>
+        <input type="number" name="" id="side2">
+    </div>
+
+    <button class="btn" id="calculateHypotenuseBtn">Calculate Hypotenuse</button>
+
+    <div id="result"></div>
+    <div id="error"></div>
+
+    <script src="scripts/hypotenuse.js"></script>
+</body>
+
+</html>
