@@ -4,7 +4,7 @@ p{
 }
 
 .row{
-    width: 70%;
+    width: 60%;
     margin: 1rem auto;
     background-color:white;
     padding: 0.9rem;
@@ -45,4 +45,8 @@ button{
     color: red;
     font-weight: bold;
     font-size: large;
+}
+
+footer{
+    position: relative;
 }
