@@ -14,7 +14,7 @@ p{
 }
 
 label{
-    width: 15%;
+    /* width: 50%; */
     font-weight: bold;
     padding: 1rem;
     display: inline;
@@ -22,6 +22,9 @@ label{
 }
 
 input{
+    /* width: 30%; */
+
+    /* align-self: left; */
     display: inline;
     margin: 1rem;
     border: 2px solid var(--primary-color);
