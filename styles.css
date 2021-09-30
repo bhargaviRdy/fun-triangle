@@ -70,6 +70,7 @@ a,
  img,
 li {
   display: inline;
+  margin: 0.2vw;
 } 
 
 footer img {
